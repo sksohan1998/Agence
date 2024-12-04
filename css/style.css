@@ -1,0 +1,79 @@
+/* all common css :start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}ul,li{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+margin: 0;
+padding: 0;
+line-height: 0.8;
+}
+.navbar{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+}
+.nav-link{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0 15px;
+}
+.nav-link:hover{
+    color: #4756DF;
+    transition: 0.6s;
+}
+.contactbtn{
+    padding: 15px 42px;
+    background: #4756DF;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* all common css :end */
+
+/* banner part :start */
+#bannerpart{
+    background: url(../images/agenc-Banner\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banneroverly{
+    background: #00000062;
+    padding-top: 330px;
+    padding-bottom: 170px;
+}
+.bannercontent h1{
+    font-size: 75px;
+    font-weight: 800;
+    line-height: 120%;
+    padding-bottom: 160px;
+
+}
+.bannercontent p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0px 217px;
+    margin-bottom: 40px;
+
+}
+.bannercontent a{
+    padding: 20px 45px;
+    background-color: #4756DF;
+    border-radius: 10px;
+    color: #fff;
+
+}
+/* banner part :end */
