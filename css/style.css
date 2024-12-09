@@ -77,3 +77,95 @@ line-height: 0.8;
 
 }
 /* banner part :end */
+
+
+/* counter part :start */
+#counterpart{
+    padding-top: 165px;
+    padding-bottom: 80px;
+}
+.counter-bg{
+    background:#E0FFF9;
+    padding: 85px 0;
+    padding-left: 50px;
+    border-radius: 10px;
+}
+.counterleftiteam p{
+    color: #6A4DF4;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 25px;
+    font-family: "Inter", sans-serif;
+
+}
+.counterleftiteam h3{
+    color: #151515;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 34px;
+    padding-right: 127px;
+    font-family: "Inter", sans-serif;
+
+}
+.counteritem p{
+    font-size: 20px;
+    padding-top: 25px;
+    font-weight: 400;
+    color: #737373;
+    font-family: "Inter", sans-serif;
+
+
+}
+.counteritem h3{
+    font-size: 50px;
+    padding-top: 25px;
+    font-weight: 700;
+    color: #151515;
+    font-family: "Inter", sans-serif;
+
+}
+/* countrt part :end */
+
+/* service part :start */
+#servicepart{
+    padding: 50px ;
+}
+.servicehead h3{
+font-size: 45px;
+font-weight: 700;
+color: #151515;
+padding-bottom: 15px;
+}
+.servicehead p{
+font-size: 18px;
+font-weight: 400;
+color: #737373;
+line-height: 26px;
+}
+.serviceiteam{
+    padding: 45px;
+    transition: .6s;
+    margin-top: 60px;
+}
+
+.serviceiteamtext h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #151515;
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+}
+.serviceiteamtext p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    line-height: 26px;
+}
+.serviceiteam:hover{
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow:0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+border-radius: 20px;
+}
+/* service part :end */
